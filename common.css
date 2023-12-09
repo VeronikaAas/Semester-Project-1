@@ -1,0 +1,82 @@
+.logo {
+    width: 130px;
+    float: left;
+    margin: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 0;
+}
+
+nav a {
+    margin-top: 50px;
+    color: #2D3F2B;
+    text-decoration: none;
+    font-family: abel, Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav a {
+        display: none;
+    }
+    nav {
+        justify-content: center;
+    }
+    nav::before {
+        content:"";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url(img/hamburger.png);
+        background-size: cover;
+    }
+}
+
+.titlelogo {
+    font-family: lobster, papyrus, baskerville;
+    color: #2D3F2B;
+}
+
+h2 {
+    font-family: abel, arial, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: lobster, papyrus, baskerville;
+}
+
+p {
+    font-family: abel, arial, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 0;
+    flex-wrap: wrap;
+}
+
+.adressfooter {
+    color: #2D3F2B;
+    font-family: abel, arial, Arial, Helvetica, sans-serif;
+}
+
+.policyfooter {
+    color: #2D3F2B;
+    font-family: abel, arial, Arial, Helvetica, sans-serif;
+}
+
+.contactusfooter {
+    color: #2D3F2B;
+    font-family: abel, arial, Arial, Helvetica, sans-serif;
+}
+
+.socialmedia {
+    font-size: 2rem;
+    margin-top: 10px;
+}
