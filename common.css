@@ -4,35 +4,48 @@
     margin: 20px;
 }
 
+#toggle-menu {
+    display: none;
+}
 
-nav {
-    display: flex;
+.navbar {
+    display: absolute;
     justify-content: space-around;
     padding: 14px 0;
 }
 
-nav a {
-    margin-top: 50px;
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
     color: #2D3F2B;
+    font-family: abel, arial, Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    padding: 14px 16px;
     text-decoration: none;
-    font-family: abel, Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+    background-color: #2D3F2B;
+    color: #fff;
 }
 
 
 @media screen and (max-width: 600px) {
-    nav a {
-        display: none;
-    }
-    nav {
-        justify-content: center;
-    }
-    nav::before {
-        content:"";
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        background-image: url(img/hamburger.png);
-        background-size: cover;
+    #toggle-menu:checked + .toggle-button + nav .menu {
+        display: flex;
     }
 }
 
