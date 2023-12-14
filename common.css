@@ -54,6 +54,19 @@ li a:hover {
     color: #2D3F2B;
 }
 
+.opening {
+    background-color: #A7C087;
+    display: flex;
+    justify-content: center;
+    width: 98.5vw;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #2D3F2B;
+}
+h1 {
+font-family: lobster, papyrus, baskerville;
+}
+
 h2 {
     font-family: abel, arial, Arial, Helvetica, sans-serif;
 }
