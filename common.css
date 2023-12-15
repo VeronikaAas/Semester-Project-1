@@ -83,14 +83,20 @@ p {
     font-family: abel, arial, Arial, Helvetica, sans-serif;
 }
 
-.policyfooter {
+.policyfooter a {
     color: #2D3F2B;
     font-family: abel, arial, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
-.contactusfooter {
+.contactusfooter a {
     color: #2D3F2B;
     font-family: abel, arial, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .socialmedia {
