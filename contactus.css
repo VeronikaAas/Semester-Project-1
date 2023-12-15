@@ -25,6 +25,8 @@
 .box2 {
     background-color: #8E3C72;
     color: white;
+    font-family: abel, arial, Arial, Helvetica, sans-serif;
+
 }
 
 @media screen and (min-width: 800px) {
@@ -32,3 +34,4 @@
         flex: 1;
     }
 }
+

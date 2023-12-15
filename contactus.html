@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cummunity Science Museum</title>
-  <link rel="stylesheet" href="visitus.css">
+  <link rel="stylesheet" href="contactus.css">
   <link rel="stylesheet" href="common.css">
   <link rel="Icon" type="png" sizes="16x16" href="/img/logo_CSM-color.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,47 +31,30 @@
     </header>
     <main>
         <div class="opening">
-            <h1>Visit us</h1>
+            <h1>Contact us</h1>
         </div>
-        <img src="/img/visitius.png" alt=" Picture of a girl learning" class="img1">
+        <img src="/img/contactus.png" alt="Photo of a woman working" class="img1">
         <div class="box-container">
             <div class="box box1">
-                <h3>Opening hours</h3>
-                <p>Monday: CLOSED</p>
-                <p>Tuesday: 10:00-16:00</p>
-                <p>Wednesday: 10:00-16:00</p>
-                <p>Thursday: 10:00-16:00</p>
-                <p>Friday: 10:00-19:00</p>
-                <p>Saturday: 09:00-16:00</p>
-                <p>Sunday: 09:00-13:00</p>
+                <p>Fill out the form below or email us at cms@museum.com if you need to contact us.</p>
+                <p>We will get back to you within 1-3 business days.</p>
+                <p>Please have some patience as we are currently busy building the museum, we can't wait to open the doors!</p>
             </div>
             <div class="box box2">
-                <h3>Admission</h3>
-                <p>The entrance is free for all</p>
-                <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.</p>
-                <p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-            </div>
-            <div class="box box3">
-                <h3>Location</h3>
-                <P>Fantasyroad 47, Fanatasycity 0000</P>
-                <p>NARNIA</p>
-            </div>
-        </div>
-        <div class="box-container2">
-            <div class="box box4">
-                <h3>Accessibility</h3>
-                <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
-            </div>
-            <div class="box box5">
-                <h3>Food & Drink</h3>
-                <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
-            </div>
-            <div class="box box6">
-                <h3>Shop</h3>
-                <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you've left the museum.</p>
+                <form action="/submit_contact_form" method="get">
+                    <label id="name-label" for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required aria-labelledby="name-label"><br>
+                    <label id="email-label" for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required width="100%" required aria-labelledby="email-label"><br>
+                    <label id="subject-label" for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" required aria-labelledby="subject-label"><br>
+                    <label id="message-label" for="message">Message:</label><br>
+                    <textarea id="message" name="message" required aria-labelledby="message-label"></textarea><br>
+                    <a href="thankyou.html"><button type="button">Submit</button></a>
+                </form>
             </div>
         </div>
-<footer>
+    <footer>
     <div class="footercontainer">
         <div class="adressfooter">
             <p>Community Science Museum</p>
