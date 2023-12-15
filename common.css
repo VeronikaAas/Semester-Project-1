@@ -1,3 +1,6 @@
+header, body, footer {
+    background-color: white;
+}
 .logo {
     width: 130px;
     float: left;
