@@ -153,6 +153,7 @@ p {
         margin-left: 5%;
         margin-top: 2%;
         font-family: lobster, papyrus, baskerville;
+        padding-top: 3%;
     }
     ul {
         display: none;
@@ -160,7 +161,7 @@ p {
     .dropdown {
         position: relative;
         display: inline-block;
-        margin-left: 5%;
+        margin-left: 25%;
     }
        
     .dropdown-content {
