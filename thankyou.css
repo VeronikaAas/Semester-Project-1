@@ -6,12 +6,12 @@
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    padding: 10%;
+    display: block;
+    text-align: center;
+    padding: 5%;
 }
 
 p {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
