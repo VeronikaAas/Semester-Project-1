@@ -69,7 +69,7 @@ li a:hover {
 }
 
 .titlelogo  a {
-    font-family: lobster, papyrus, baskerville;
+    font-family:'Lemonada', cursive;
     color: #2D3F2B;
     text-decoration: none;
     display: inline-block;
@@ -77,16 +77,16 @@ li a:hover {
 }
 
 h1 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lemonada', cursive;
 
 }
 
 h2 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lemonada', cursive;
 }
 
 h3 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lemonada', cursive;
 }
 
 p {
