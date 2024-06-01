@@ -1,4 +1,6 @@
 Semester Project
+![screen_semester](https://github.com/VeronikaAas/Semester-Project-1/assets/142529132/1e279ccf-2024-4a59-b4a9-ddc40a78e542)
+
 
 This was my very first exam during my Front-End Development studies at Noroff. I built a website for a museum. Feel free to check it out if you're curious!
 
